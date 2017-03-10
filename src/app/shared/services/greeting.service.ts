@@ -1,12 +1,13 @@
+// greeting.service.ts
 import {Injectable} from '@angular/core';
 
 @Injectable()
 export class GreetingService {
 
-    constructor() {
-    }
+	constructor() {
+	}
 
-    greet(name: string): string {
-        return `Hi, ${name}`;
-    }
+	greet(name: string): string {
+		return `Hi, ${name}`;
+	}
 }

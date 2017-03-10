@@ -1,5 +1,11 @@
+// greeting.service.spec.ts
 import {GreetingService}from './greeting.service';
 import {TestBed, inject} from '@angular/core/testing';
+
+
+/**
+ * 1. First Test Suite: testing a simple, single service. No DI.
+ */
 describe('Test Plain Greeting Service', () => {
     let greetingService;
     beforeEach(() => {
@@ -15,6 +21,10 @@ describe('Test Plain Greeting Service', () => {
     });
 });
 
+/**
+ * 2. Second Test Suite: testing a single service as a module, with TestBed.
+ */
+/*
 describe('Test Greeting service via TestBed', () => {
     let service;
     beforeEach(() => {
@@ -22,13 +32,13 @@ describe('Test Greeting service via TestBed', () => {
             providers: [GreetingService]
         });
 
-        // service = TestBed.get(GreetingService);
+        service = TestBed.get(GreetingService);
     });
 
-    // ALternative notation, use separate injector instead of TestBed.get()
-    beforeEach(inject([GreetingService], (svc: GreetingService) => {
-        service = svc;
-    }));
+    // Alternative notation, use separate injector instead of TestBed.get()
+    // beforeEach(inject([GreetingService], (svc: GreetingService) => {
+    //     service = svc;
+    // }));
 
     it('Should have generated the service via TestBed', () => {
         expect(service).toBeTruthy();
@@ -38,4 +48,4 @@ describe('Test Greeting service via TestBed', () => {
         expect(service.greet('Sandra')).toEqual('Hi, Sandra');
     });
 
-});
+});*/

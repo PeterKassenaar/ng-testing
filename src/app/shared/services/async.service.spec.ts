@@ -1,3 +1,4 @@
+/*
 import {TestBed, async} from "@angular/core/testing";
 import {AsyncService} from "./async.service";
 
@@ -16,3 +17,4 @@ describe('Simple Async Service', ()=>{
         })
     }))
 });
+*/

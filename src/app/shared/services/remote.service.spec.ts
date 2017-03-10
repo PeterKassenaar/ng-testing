@@ -1,3 +1,4 @@
+/*
 import {TestBed, async, inject} from '@angular/core/testing';
 import {HttpModule, XHRBackend, Response, ResponseOptions} from '@angular/http';
 import {MockBackend, MockConnection} from '@angular/http/testing';
@@ -26,7 +27,7 @@ describe('Simple HTTP Remote Service', () => {
     //     expect(mockBackend).toBeDefined();
     // });
 
-    /*it('Should return people.json', async(() => {
+    /!*it('Should return people.json', async(() => {
         // Create mock backend connection
         mockBackend.connections.subscribe((conn: MockConnection) => {
             conn.mockRespond(new Response(new ResponseOptions([{
@@ -42,5 +43,5 @@ describe('Simple HTTP Remote Service', () => {
         remoteService.getPeople().subscribe((result) => {
             expect(result).toBeDefined();
         });
-    }))*/
-});
+    }))*!/
+});*/
