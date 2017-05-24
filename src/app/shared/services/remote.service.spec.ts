@@ -12,7 +12,7 @@ describe('Simple HTTP Remote Service', () => {
             providers: [
                 RemoteService,
                 MockBackend,
-                {provide: XHRBackend, useclass: MockBackend}
+                {provide: XHRBackend, useClass: MockBackend}
             ]
         });
         remoteService = TestBed.get(RemoteService);
