@@ -6,7 +6,7 @@ import {TestBed, inject} from '@angular/core/testing';
 /**
  * 1. First Test Suite: testing a simple, single service. No DI.
  */
-describe('Test Plain Greeting Service', () => {
+/*describe('Test Plain Greeting Service', () => {
     let greetingService;
     beforeEach(() => {
         greetingService = new GreetingService();
@@ -19,7 +19,7 @@ describe('Test Plain Greeting Service', () => {
         let msg = greetingService.greet('Peter');
         expect(msg).toEqual('Hi, Peter');
     });
-});
+});*/
 
 /**
  * 2. Second Test Suite: testing a single service as a module, with TestBed.
