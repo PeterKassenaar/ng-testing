@@ -1,4 +1,5 @@
 # ng-testing
+
 Sample angular-cli project with some Jasmine/Karma unit tests. Used in trainings/courses by Peter Kassenaar (info@kassenaar.com).
 
 ## Angular-cli
