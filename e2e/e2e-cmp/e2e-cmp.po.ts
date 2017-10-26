@@ -9,7 +9,7 @@ export class e2eComponentPage{
 		return browser.get('/');
 	}
 
-	// Titel van de pagina ophalen
+	// Titel van de pagina ophalen - let op goede CSS-selector verwijzing (incl. selector van de component)
 	getTitle(){
 		return element(by.css('app-e2e-cmp h1')).getText();
 	}
