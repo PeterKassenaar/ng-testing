@@ -31,7 +31,7 @@ This project doesn't do anything slightly interesting, besides from the tests.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 Before running the tests make sure you are serving the app via `ng serve`.
 
-It currently doesn't have any additional e2e-tests.
+It currently has one simple extra component with some e2e-tests.
 
 ## Further help
 
