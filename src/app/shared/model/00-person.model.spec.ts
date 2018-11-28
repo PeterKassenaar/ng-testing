@@ -1,8 +1,10 @@
-import {Person} from "./person.model";
-// Generic testing pattern
+// Generic testing pattern for a model/class
+// NO Angular specific stuff here!
+
+import {Person} from "./00-person.model";
 
 // 1. Describe block for every test suite
-describe('The Person', () => {
+describe('00 - The Person', () => {
 
 	// 2. Variables used by this test suite
 	let aPerson;
@@ -24,5 +26,6 @@ describe('The Person', () => {
 	});
 
 	// 6. More it()-blocks
+	//...
 
 });

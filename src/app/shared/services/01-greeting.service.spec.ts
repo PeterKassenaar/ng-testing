@@ -1,12 +1,15 @@
 // greeting.service.spec.ts
-import {GreetingService}from './greeting.service';
+import {GreetingService}from './01-greeting.service';
 import {TestBed, inject} from '@angular/core/testing';
 
+//******************************
+// (un)comment the tests you want to run
+//******************************
 
 /**
  * 1. First Test Suite: testing a simple, single service. No DI.
  */
-/*describe('Test Plain Greeting Service', () => {
+/*describe('01 - Test Plain Greeting Service', () => {
     let greetingService;
     beforeEach(() => {
         greetingService = new GreetingService();
@@ -24,8 +27,7 @@ import {TestBed, inject} from '@angular/core/testing';
 /**
  * 2. Second Test Suite: testing a single service as a module, with TestBed.
  */
-/*
-describe('Test Greeting service via TestBed', () => {
+/*describe('02 - Test Greeting service via TestBed', () => {
     let service;
     beforeEach(() => {
         TestBed.configureTestingModule({
@@ -47,5 +49,4 @@ describe('Test Greeting service via TestBed', () => {
     it('Should return Hi, Sandra', () => {
         expect(service.greet('Sandra')).toEqual('Hi, Sandra');
     });
-
 });*/
