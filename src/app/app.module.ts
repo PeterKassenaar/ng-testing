@@ -14,6 +14,7 @@ import {
   CardHeader
 } from './card/card.component.spec';
 import { SpyComponent } from './spy/spy.component';
+import {E2eComponent} from "./e2e-cmp/e2e-cmp.component";
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SpyComponent } from './spy/spy.component';
     CardHeader,
     CardFooter,
     CardContent,
-    CarComponent
+    CarComponent,
+    E2eComponent
   ],
   imports: [BrowserModule],
   providers: [GreetingService],
