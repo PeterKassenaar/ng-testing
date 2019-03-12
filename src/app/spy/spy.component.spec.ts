@@ -3,7 +3,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { SpyComponent } from './spy.component';
 import { City } from '../shared/model/city.model';
 
-/*
+
 describe('SpyComponent', () => {
   let component: SpyComponent;
   let fixture: ComponentFixture<SpyComponent>;
@@ -20,7 +20,7 @@ describe('SpyComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(SpyComponent);
     component = fixture.componentInstance;
-    // mock data voor deze component
+    // mock data for this component
     component.cities = [
       new City(1, 'Venlo', 'LB'),
       new City(2, 'Groningen', 'GR')
@@ -54,8 +54,12 @@ describe('SpyComponent', () => {
   //********************************
   it('should call the deleteCity method only when delete button is clicked', async(() => {
     spyOn(component, 'deleteCity');
-    const button = fixture.debugElement.nativeElement.querySelector(
-      '#btnDelete'
+    // OR:
+    // component.deleteCity = jasmine.createSpy('component.deleteCity')
+
+    const button = fixture.debugElement
+        .nativeElement.querySelector(
+      '.btnDelete'
     );
     button.click();
 
@@ -64,4 +68,3 @@ describe('SpyComponent', () => {
     });
   }));
 });
-*/
