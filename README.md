@@ -1,8 +1,10 @@
 # Angular Unit Testing Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
 It's purpose is to demonstrate different ways of testing classes, services and components in Angular.
-The project itself is just a plain CLI-project. It doesn't do anything.
+The project itself is just a plain CLI-project. It doesn't do much, except for showing some components that you write tests for in the workshops.
+
+This project belongs to the course `Angular Fundamentals / Advanced` by Peter Kassenaar.
 
 ## Running unit tests
 
