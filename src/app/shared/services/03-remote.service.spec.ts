@@ -4,7 +4,6 @@
 import {TestBed, getTestBed} from '@angular/core/testing';
 import {HttpClientTestingModule, HttpTestingController} from '@angular/common/http/testing';
 import {Person, RemoteService} from "./03-remote.service";
-import 'rxjs/add/operator/map';
 
 /*
 describe('04- Simple HTTP Remote Service', () => {
