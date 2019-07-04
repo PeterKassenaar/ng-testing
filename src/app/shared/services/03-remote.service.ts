@@ -1,7 +1,7 @@
 import {Injectable} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs";
-import 'rxjs/add/operator/map';
+import {map} from 'rxjs/operators';
 
 // local interface to mock stuff
 export interface Person {
@@ -28,6 +28,8 @@ export class RemoteService {
 	public getFirstName(): Observable<string> {
 		return this.http
 			.get<Person[]>(this.url)
-			.map(result => result[0].name);
+      .pipe(
+        map(result => result[0].name)
+      )
 	}
 }
