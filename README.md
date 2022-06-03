@@ -37,7 +37,7 @@ You can run the project with `ng serve` or `npm start` to see its simple output
 ## Extra links (Cypress)
 - End to End (e2e) – Angular Testing – Protractor vs Cypress: https://techblog.fexcofts.com/2018/09/24/end-to-end-e2e-angular-testing-protractor-vs-cypress/
 - Unit testing Angular components with Cypress - https://medium.com/joolsoftware/unittesting-angular-components-with-cypress-202a38d9f81a 
-
+- Useful Online book on Angular Testing: `Testing Angular`, https://testing-angular.com/introduction/#introduction
 
 
 
